@@ -1,4 +1,4 @@
-name: My Template
+name: Document Template
 description: >
   A generic document template for rmarkdown.
 create_dir: false
