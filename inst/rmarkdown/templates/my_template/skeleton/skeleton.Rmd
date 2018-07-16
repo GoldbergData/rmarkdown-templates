@@ -4,7 +4,8 @@ author: "Your Name"
 date: "`r format(Sys.time(), '%B, %d %Y')`"
 always_allow_html: yes
 output:
-  github_document: default
+  github_document: 
+  pdf_document: default
 editor_options: 
   chunk_output_type: inline
 ---
