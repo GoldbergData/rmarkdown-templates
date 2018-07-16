@@ -1,6 +1,6 @@
 ---
 title: "Untitled"
-author: "Josh Goldberg"
+author: "Your Name"
 date: "`r format(Sys.time(), '%B, %d %Y')`"
 always_allow_html: yes
 output:
