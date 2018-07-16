@@ -16,14 +16,18 @@ knitr::opts_chunk$set(fig.width=8, fig.height=4, fig.path='Figs/',
 ```
 
 ```{r Load Libraries, echo=FALSE}
+# Enter package in p_load()
 if(!"pacman" %in% rownames(installed.packages())) {
   install.packages("pacman")
   }
-pacman::p_load(tidyverse)
+pacman::p_load(tidyverse, ggthemes)
+
+# Set default ggplot theme to tufte
 theme_set(ggthemes::theme_tufte())
 ```
 
 ```{r Copy-files, echo=FALSE, eval=FALSE}
+# Enter files to load to project directory in from = "~/Downloads/your_file_name_here"
 file.copy(from = "~/Downloads/", to = here::here(), 
           overwrite = TRUE, recursive = FALSE, 
           copy.mode = TRUE)
