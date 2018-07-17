@@ -21,7 +21,7 @@ knitr::opts_chunk$set(fig.width=8, fig.height=4, fig.path='Figs/',
 if(!"pacman" %in% rownames(installed.packages())) {
   install.packages("pacman")
   }
-pacman::p_load(tidyverse, ggthemes)
+pacman::p_load(tidyverse, ggthemes, here)
 
 # Set default ggplot theme to tufte
 theme_set(ggthemes::theme_tufte())
