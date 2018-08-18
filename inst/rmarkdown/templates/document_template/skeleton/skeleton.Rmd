@@ -10,7 +10,7 @@ editor_options:
   chunk_output_type: inline
 ---
 
-```{r global-options, include=FALSE}
+```{r Global-options, include=FALSE}
 knitr::opts_chunk$set(fig.width=6, fig.height=4, fig.path='Figs/',
                       warning=FALSE, message=FALSE, cache=TRUE)
 ```
