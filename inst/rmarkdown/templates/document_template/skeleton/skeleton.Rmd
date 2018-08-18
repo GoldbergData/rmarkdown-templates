@@ -10,12 +10,12 @@ editor_options:
   chunk_output_type: inline
 ---
 
-```{r global_options, include=FALSE}
+```{r global-options, include=FALSE}
 knitr::opts_chunk$set(fig.width=6, fig.height=4, fig.path='Figs/',
                       warning=FALSE, message=FALSE, cache=TRUE)
 ```
 
-```{r Load Libraries, echo=FALSE}
+```{r Preamble, echo=FALSE}
 # Enter package in p_load()
 # If package is not installed, p_load() will install and load the package
 if(!"pacman" %in% rownames(installed.packages())) {
