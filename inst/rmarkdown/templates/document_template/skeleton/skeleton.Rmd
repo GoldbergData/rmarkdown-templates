@@ -16,12 +16,8 @@ knitr::opts_chunk$set(fig.width=6, fig.asp=0.618, fig.path='Figs/',
 ```
 
 ```{r Preamble, echo=FALSE}
-# Enter package in p_load()
-# If package is not installed, p_load() will install and load the package
-if(!"pacman" %in% rownames(installed.packages())) {
-  install.packages("pacman")
-  }
-pacman::p_load(tidyverse, ggthemes, here)
+library(dplyr)
+library(ggplot)
 
 # Set default ggplot theme to tufte
 theme_set(ggthemes::theme_tufte())
